@@ -1,6 +1,6 @@
-# Tech Support Email Standardizer
+# Email Standardizer
 
-This Python application helps to convert bulk of emails into a standardized format in the style of a Tech Support operator using openai GPT-4 based deep learning model. This README will provide you an overview about how to setup and use the application.
+This Python application helps to convert emails into a standardized format in the style of a Tech Support operator by default, but you can modify this paramater in the menu button, using openai GPT-4 based deep learning model. This README will provide you an overview about how to setup and use the application.
 
 ## Prerequisites
 Before starting with the setup, ensure the following prerequisites are met:
@@ -9,7 +9,7 @@ Before starting with the setup, ensure the following prerequisites are met:
 - An API Key from OpenAI. You can get it from [OpenAI's Website](https://beta.openai.com/signup/)
 
 ## Project Structure
-- `tech_support_email_standardizer.py` : Main python script where the GUI and processing functions are defined.
+- `email_standardizer.py` : Main python script where the GUI and processing functions are defined.
 - `api_key.json` : JSON file which stores the API key for OpenAI. Make sure not to expose this file.
 
 ## Setup
@@ -24,7 +24,7 @@ In order to run the tool you need to follow the steps:
 ```
 Otherwise, the program will prompt you to enter it at first run.
 
-3. Run `python3 tech_support_email_standardizer.py` in the terminal from the project folder's location.
+3. Run `python3 email_standardizer.py` in the terminal from the project folder's location.
 
 ## Using the Application
 After successful setup of the application, you'll see a GUI window with several text boxes, buttons and a menu.
