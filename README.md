@@ -5,7 +5,7 @@ This Python application helps to convert emails into a standardized format in th
 ## Prerequisites
 Before starting with the setup, ensure the following prerequisites are met:
 - Python3 installed. You can download it from [here](https://www.python.org/downloads/)
-- Install required python modules using command: `pip install tkinter openai`
+- Install required python modules using command: `pip install openai`
 - An API Key from OpenAI. You can get it from [OpenAI's Website](https://beta.openai.com/signup/)
 
 ## Project Structure
